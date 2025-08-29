@@ -1,0 +1,5 @@
+Python is powerful.
+It is widely used in data science.
+Many developers love Python.
+Learning Python opens up opportunities.
+Practice makes perfect.git
