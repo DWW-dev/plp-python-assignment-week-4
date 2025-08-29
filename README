@@ -1,1 +1,43 @@
-This README file outlines a simple Python script that reads a text file, converts its content to uppercase, and writes it to a new file named modified_output.txt. The script includes error handling for cases where the file doesn't exist or there are issues with reading or writing files. The project requires Python 3.6 or higher and can be run on the command line after cloning the repository. Users can contribute by forking the repository, creating a new branch, making changes, and raising a pull request.If you have any questions, you can open an issue or contact the author. The script assumes the target file resides in the same directory as the script unless a full path is specified.
+
+# 📂 File Reader & Modifier – Python Assignment
+
+## 📖 Overview
+This Python program demonstrates **file handling with error management**.  
+It asks the user for a filename, reads the file content, displays it, modifies the content (by converting all text to uppercase), and writes the modified version into a new file named **`modified_output.txt`**.  
+
+The program also includes robust **error handling** to manage issues such as:
+- File not found  
+- Permission errors  
+- Unexpected runtime errors  
+
+---
+
+## ⚡ Features
+- Prompts the user to enter a filename  
+- Reads and displays the file’s original content  
+- Converts the content to **uppercase**  
+- Saves the modified content into a new file (**`modified_output.txt`**)  
+- Handles errors gracefully with clear messages  
+
+---
+
+## 🖥️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+2. Make sure you have Python 3.x installed.
+
+3. Place a text file (e.g., input.txt) in the same folder.
+
+4. Run the program:
+
+python file_reader.py
+
+5. Enter the filename when prompted, for example:
+Enter the filename to read: input.txt
+6. The program will:
+
+Print the original content to the terminal
+
+Create a new file modified_output.txt with the modified content
